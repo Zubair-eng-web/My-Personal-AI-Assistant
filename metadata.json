@@ -1,0 +1,6 @@
+{
+  "name": "Badshah",
+  "description": "A standalone personal AI assistant app for coding, debugging, learning, project planning, and general knowledge.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
