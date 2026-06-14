@@ -1,20 +1,54 @@
 <div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
+<h1>My Personal AI Assistant</h1>
 </div>
 
-# Run and deploy your AI Studio app
+A lightweight TypeScript + React assistant project you can run locally and deploy to GitHub.
 
-This contains everything you need to run your app locally.
+**Live AI Studio link:** https://ai.studio/apps/24cd258e-b8f4-4ebe-bed1-7b4d34c17a69
 
-View your app in AI Studio: https://ai.studio/apps/24cd258e-b8f4-4ebe-bed1-7b4d34c17a69
+## Features
 
-## Run Locally
+- Minimal React + Vite frontend
+- Example server entry point (`server.ts`)
+- Components for chat UI and suggestions
 
-**Prerequisites:**  Node.js
+## Prerequisites
 
+- Node.js 16+ (recommended)
+- npm (or yarn)
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Quick Start
+
+1. Install dependencies
+
+   npm install
+
+2. Create environment variables
+
+   - Copy or create `.env.local` and set `GEMINI_API_KEY` (or other keys used by your server).
+
+3. Run development server
+
+   npm run dev
+
+4. Build for production
+
+   npm run build
+
+5. Start the production server (if applicable)
+
+   npm run start
+
+## Deploy
+
+This repository is already set up on GitHub: https://github.com/Zubair-eng-web/My-Personal-AI-Assistant
+
+To deploy, push your changes and follow your preferred hosting service instructions (Vercel, Netlify, GitHub Pages, etc.).
+
+## License
+
+This project is released under the MIT License — see `LICENSE`.
+
+---
+
+If you'd like, I can add more detailed setup instructions, an example `.env.local`, or CI deployment configuration.
